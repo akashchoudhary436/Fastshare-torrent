@@ -1,0 +1,11 @@
+{
+  "name": "Fastshare",
+  "short_name": "Fastshare",
+  "start_url": "/",
+  "display": "standalone",
+  "lang": "en-US",
+  "background_color": "#eee",
+  "theme_color": "#eee",
+  "description": "Streaming file transfer over WebTorrent (torrents on the web)"
+
+}
