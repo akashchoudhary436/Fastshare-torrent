@@ -46,7 +46,7 @@
   "private": true,
   "scripts": {
     "build": "npm run build-css && npm run build-js",
-    "build-css": "stylus css/main.styl -o static/ -c",
+    "build-css": "npx stylus css/main.styl -o static/ -c",
     "build-js": "browserify client > static/bundle.js",
     "deploy": "./tools/trigger-deploy.sh",
     "prepare": "husky install",
