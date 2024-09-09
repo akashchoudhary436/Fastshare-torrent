@@ -44,7 +44,7 @@ const debug = require('debug');
 
 
 // Define your custom torrent tracker
-const customTracker = 'wss://torrent-tracker.onrender.com';
+const customTracker = 'wss://tracker.fastsharetorrent.me';
 
 // Extract global trackers from `createTorrent.announceList`
 const globalTrackers = createTorrent.announceList
